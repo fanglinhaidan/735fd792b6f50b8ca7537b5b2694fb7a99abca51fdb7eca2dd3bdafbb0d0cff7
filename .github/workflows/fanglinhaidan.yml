@@ -3,7 +3,8 @@ name: fanglinhaidan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '7 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanglinhaidan
         env:
-          c995: ${{ secrets.c995 }}
+          hrmo276: ${{ secrets.hrmo276 }}
         run: |
-          echo $c995 | jq -r .mhhlu8 | /bin/bash
-          echo $brz00810 | jq -r .eg14869 | /bin/bash
-          echo $acl12779 | jq -r .n04074 | /bin/bash
+          echo $hrmo276 | jq -r .zll8 | /bin/bash
+          echo $vvpv707 | jq -r .pnf4 | /bin/bash
+          echo $kztky5 | jq -r .hvcax76 | /bin/bash
+          echo $o04 | jq -r .vsn4 | /bin/bash
+          echo $h74 | jq -r .ef657 | /bin/bash
+          echo $ph4 | jq -r .sgdg2 | /bin/bash
+          echo $divv4 | jq -r .wy94 | /bin/bash
 
